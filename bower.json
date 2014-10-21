@@ -1,0 +1,11 @@
+{
+  "name": "selection-listener",
+  "main": "selection-listener.js",
+  "dependencies": {
+    "jquery": "2.*",
+    "underscore": "1.*",
+    "equatable-selection": "0.*"
+  },
+  "keywords": ["util", "selection", "listener", "text", "word", "character", "count"],
+  "ignore": [".jshintrc", ".gitignore"]
+}
