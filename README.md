@@ -1,13 +1,13 @@
 [![Build status](https://img.shields.io/travis/jbrudvik/selection-listener.svg)](https://travis-ci.org/jbrudvik/selection-listener)
 [![Bower version](http://img.shields.io/bower/v/selection-listener.svg)](https://github.com/jbrudvik/selection-listener)
 
-  - [SelectionListener()](#selectionlistener)
-  - [SelectionListener.handleEvent()](#selectionlistenerhandleevent)
+  - [SelectionListener()](#selectionlistenertargetelement)
+  - [SelectionListener.handleEvent()](#selectionlistenerhandleeventeventevent)
   - [SelectionListener.start()](#selectionlistenerstart)
   - [SelectionListener.stop()](#selectionlistenerstop)
   - [SelectionListener.toggle()](#selectionlistenertoggle)
 
-## SelectionListener()
+## SelectionListener(target:Element)
 
   An object that listens for selection changes on a target object and triggers
   a custom jQuery `selectionChange` event when changes are observed.
@@ -19,7 +19,7 @@
   selection being unselected, the triggered `selectionChange` event will not contain
   a `selection` property.
 
-## SelectionListener.handleEvent()
+## SelectionListener.handleEvent(event:Event)
 
   Handle events and check for selection changes.
   

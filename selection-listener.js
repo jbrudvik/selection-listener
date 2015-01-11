@@ -13,6 +13,8 @@
    * EquatableSelection if a selection exists. In the case of a previously-selected
    * selection being unselected, the triggered `selectionChange` event will not contain
    * a `selection` property.
+   *
+   * @param {Element} target
    */
   function SelectionListener(target) {
     this.target = target;
@@ -43,6 +45,8 @@
    * Trigger `selectionChange` event if a selection change has occurred.
    *
    * `selectionChange` event includes EquatableSelection `selection` property.
+   *
+   * @param {Event} event
    */
   SelectionListener.prototype.handleEvent = function (event) {
     var current = new EquatableSelection();
