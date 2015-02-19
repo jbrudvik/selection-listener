@@ -13,5 +13,10 @@
   "camelcase": true,
   "expr": true,
   "curly": false,
-  "browser": true
+  "browser": true,
+  "predef": [
+    "$",
+    "_",
+    "EquatableSelection"
+  ]
 }

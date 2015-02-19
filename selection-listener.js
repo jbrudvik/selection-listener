@@ -1,6 +1,4 @@
 
-/* global $:false, _:false, EquatableSelection:false */
-
 (function (window, undefined) {
 
   /**
