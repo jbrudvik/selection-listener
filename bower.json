@@ -7,5 +7,5 @@
     "equatable-selection": "0.*"
   },
   "keywords": ["util", "selection", "listener", "text", "word", "character", "count"],
-  "ignore": [".jshintrc", ".gitignore"]
+  "ignore": ["**/.*", "*.md", "generate-docs"]
 }
