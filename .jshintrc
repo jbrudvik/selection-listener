@@ -14,9 +14,9 @@
   "expr": true,
   "curly": false,
   "browser": true,
-  "predef": [
-    "$",
-    "_",
-    "EquatableSelection"
-  ]
+  "globals": {
+    "$": false,
+    "_": false,
+    "EquatableSelection": false
+  }
 }
